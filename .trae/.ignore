@@ -1,0 +1,12 @@
+# TraeCode 忽略清单（本项目级）
+# 这里列出的文件不会参与代码索引，也无法被作为 #Workspace / #Folder 上下文喂给 AI。
+# 目的：密钥文件绝不进入 TraeCode 的 AI 上下文。
+
+.env
+**/.env
+.env.*
+**/.env.*
+
+__pycache__/
+**/__pycache__/
+*.pyc
